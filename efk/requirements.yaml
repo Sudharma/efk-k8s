@@ -1,0 +1,11 @@
+---
+dependencies:
+- name: "elasticsearch"
+  repository: "@elastic"
+  version: "7.6.2"
+- name: "fluentd-elasticsearch"
+  repository: "@kiwigrid"
+  version: "6.2.3"
+- name: "kibana"
+  repository: "@elastic"
+  version: "7.6.2"

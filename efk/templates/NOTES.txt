@@ -1,0 +1,6 @@
+1. Secret created for elastic certificate
+   kubectl get secret elastic-certificates -n {{ .Release.Namespace }}
+2. Secret created for elastic CA needed for kibana in pem format
+   kubectl get secret elastic-ca-pem -n {{ .Release.Namespace }}
+3. Secret created for elastic credentials
+   kubectl get secret elastic-credentials -n {{ .Release.Namespace }}
